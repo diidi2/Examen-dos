@@ -1,0 +1,106 @@
+:root {
+    --primary-color: #282d33; /* Negro */
+    --secondary-color: #777; /* Gris */
+    --background-color: #ecf0f1; /* Color de fondo */
+    --text-color: #282d33; /* Negro */
+    --font-family: 'Catamaran', sans-serif; /* Fuente Catamaran */
+}
+
+body {
+    font-family: 'catamaran';
+    background-color: #ecf0f1;
+    color: #282d33;
+}
+
+h1, h2, h5 {
+    color: #282d33;
+    margin-bottom: 1rem;
+}
+
+	
+header {
+    background-color:#ecf0f1;
+    padding: 2rem 0;
+}
+
+header h1 {
+    color: #282d33;
+}
+
+#hero {
+    background-image: url('"../img/home-grid-new-slide-4.jpg"');
+    background-size: cover;
+    background-position: center;
+    color: #777;
+    padding: 5rem 0;
+    position: relative;
+}
+
+
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+#cta {
+    background-image: url('"../img/home-grid-banner.jpg"');
+    background-size: cover;
+    background-position: center;
+    color: #777;
+    position: relative;
+	
+}
+#intro h3, #services h3, #cta h2, #clients h2 {
+    color: #282d33;
+    margin-top: 1rem;
+}
+
+#intro p, #services p, #cta p, #clients p {
+    color: #777;
+}
+
+#services {
+    background-color: #ecf0f1;
+}
+
+
+.navbar {
+    background-color: #282d33;
+}
+
+.navbar-brand, .nav-link {
+    color: #ecf0f1 !important;
+}
+
+.nav-link:hover {
+    color: #777 !important;
+}
+
+.btn-primary {
+    background-color: #282d33;
+    border-color: #282d33;
+    color: #ecf0f1;
+}
+
+.btn-primary:hover {
+    background-color: #ecf0f1;
+    border-color: #777;
+}
+
+
+.fancybox-container {
+    z-index: 9999;
+}
+
+.fancybox-slide {
+    background-color: #ecf0f1;
+}
+
+	
+footer{
+	background-color:#282d33;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 13px;
+}
